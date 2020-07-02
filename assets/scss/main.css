@@ -158,8 +158,8 @@ h5 {
   display: block;
   width: 0;
   height: .3rem;
-  -webkit-transition: width .5s;
-  transition: width .5s;
+  -webkit-transition: width .3s;
+  transition: width .3s;
   position: absolute;
   left: 0;
   bottom: 0;
