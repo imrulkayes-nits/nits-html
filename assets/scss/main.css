@@ -120,6 +120,33 @@ h5 {
 /*  HEADER SECTION */
 /*==================================*/
 /*===== Logo Wrapper =====*/
+.header-section {
+  position: relative;
+}
+
+.navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 0 !important;
+  padding-bottom: 1.2rem;
+  z-index: 1002;
+  /*
+  background: url(bg-img/bg-img.png);
+  background-position:  top bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;*/
+  background: -webkit-gradient(linear, right top, left top, from(#712323), to(#812727));
+  background: linear-gradient(to left, #712323, #812727);
+  -webkit-animation-name: animationFade;
+          animation-name: animationFade;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
 .navigation .logo-wrapper img {
   width: 12rem;
   margin-top: 2.4rem;
@@ -200,13 +227,17 @@ h5 {
 }
 
 /*======= BANNER =======*/
-header {
+.banner {
   background: url(bg-img/bg-img.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
   position: relative;
   height: 100vh;
+}
+
+.banner {
+  margin-top: 7rem;
 }
 
 .banner .banner-text .promo-title {
