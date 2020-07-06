@@ -132,11 +132,6 @@ h5 {
   margin: 0 !important;
   padding-bottom: 1.2rem;
   z-index: 1002;
-  /*
-  background: url(bg-img/bg-img.png);
-  background-position:  top bottom;
-  background-size: 100%;
-  background-repeat: no-repeat;*/
   background: -webkit-gradient(linear, right top, left top, from(#712323), to(#812727));
   background: linear-gradient(to left, #712323, #812727);
   -webkit-animation-name: animationFade;
@@ -256,7 +251,7 @@ h5 {
   line-height: 1.6;
   letter-spacing: .1rem;
   margin-top: 2.5rem;
-  padding-right: 5.5rem;
+  padding-right: 15rem;
 }
 
 .banner .banner-text .button-top .btn {

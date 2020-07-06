@@ -127,11 +127,7 @@ line-height: 1.5;
   right: 0;
   margin: 0 !important;
   padding-bottom: 1.2rem;
-  z-index: 1002;/*
-  background: url(bg-img/bg-img.png);
-  background-position:  top bottom;
-  background-size: 100%;
-  background-repeat: no-repeat;*/ 
+  z-index: 1002;
   background: linear-gradient(to left, #712323,#812727);
   animation-name: animationFade;
   animation-duration: 5s;
@@ -221,6 +217,7 @@ line-height: 1.5;
 }
 .banner {   
   margin-top: 7rem;
+ 
   .banner-text {
     .promo-title {
       margin-top: 7rem;
@@ -237,7 +234,7 @@ line-height: 1.5;
       line-height: 1.6;
       letter-spacing: .1rem;
       margin-top: 2.5rem;
-      padding-right: 5.5rem;
+      padding-right: 15rem;
     }
     .button-top {
       .btn {
