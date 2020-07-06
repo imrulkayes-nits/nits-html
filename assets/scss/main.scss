@@ -415,24 +415,18 @@ line-height: 1.5;
     .owl-nav {
       position: relative;
       margin-top: 5rem;
+     
       .owl-prev {
         position: absolute;
         bottom: 0;
         left: 48%;
-      
+        margin-right: 3rem;
+        padding-right: 3rem;
       }
       .owl-next {
         position: absolute;
         bottom: 0;
         right: 48%;
-      }
-      span {
-        width: 1rem;
-        height: 2rem;
-        display: inline-block;
-        color: #cc3939;
-        font-size: 5rem;
-        background: #ffffff;
       }
     }
   }

@@ -28,7 +28,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       button {
         position: fixed;
         top: 3rem;
-        right: 40%;
+        right: 10rem !important;
         .fas {
           padding: .1rem;
           font-size: 1.6rem;
@@ -94,15 +94,107 @@ and (-webkit-min-device-pixel-ratio: 2) {
   /*======= ABOUT SECTION =======*/
   .about-section {
     .hThree {
-    margin-top: 7.5rem;
+    margin-top: 3rem !important;
+    text-align: center !important;
     }
     .head-description {
-      font-size: 1.4rem;
-      text-align: left;
-      margin-top: 2.5rem;
-      padding-right: 5.5rem;
-      color: #615f5f;
+      font-size: 1.3rem;
+      text-align: center !important;
+      margin-top: 2rem;
+      padding: 0 4rem;
+    }
+    .arrow {
+      margin: 0 auto;
+  
+      .fas {
+        color: #e95656;
+        font-size: 1.8rem;
+        text-align: left;
+        padding: .5rem;
+      
+      }
+    }
+    .hFive {
+      padding: 0 !important;
+      margin-top: 2rem;
     }
     
   }
+  /*======= SERVICES SECTION =======*/
+
+  .services-section {
+    .head-description {
+      width: 100%;
+      font-size: 1.4rem;
+      text-align: center;
+      padding: 0 !important;
+      margin-top: 1.5rem;
+    }
+    .item-box {
+      padding: 1rem 1.5rem;
+      border-radius: 1rem;
+      margin: 4.5rem 4rem;
+      h4 {
+        color: #fff;
+      }
+      p {
+        font-weight: 400;
+        line-height: 2;
+        margin: 1rem 2rem;
+        color: #fff;
+        margin: 2rem 0;
+      }
+    }
+  }
+  /*======= PORTFOLIO SECTION =======*/
+  .owl-nav {
+    position: relative;
+    margin-top: 5rem !important;
+   
+    .owl-prev {
+      position: absolute;
+      bottom: 0;
+      left: 45% !important;
+    }
+    .owl-next {
+      position: absolute;
+      bottom: 0;
+      right: 45% !important;
+      font-size: 5rem;
+    }
+    span {
+
+      height: 2rem !important;
+      display: inline-block;
+      color: #cc3939;
+      font-size: 5rem;
+      background: #ffffff;
+    }
+    
+  }
+
+
+  /*======= BLOG SECTION =======*/
+
+  .blog-section {
+    .blog {
+      margin: 0 !important;
+      .hThree {
+        margin-top: 2rem !important;
+        text-align: center;
+        font-size: 1.6rem;
+      }
+      .little-description {
+        line-height: 3.5;
+        text-align: center !important;
+        margin: 2rem 0;
+        padding-right: 0 !important;
+      }
+    }
+    .blogR {
+      .hThree {
+        margin-top: 6rem !important;
+      }
+    }
+  }      
 }

@@ -20,7 +20,7 @@
   .menu-bars .navbar button {
     position: fixed;
     top: 3rem;
-    right: 40%;
+    right: 10rem !important;
   }
   .menu-bars .navbar button .fas {
     padding: .1rem;
@@ -80,14 +80,91 @@
   }
   /*======= ABOUT SECTION =======*/
   .about-section .hThree {
-    margin-top: 7.5rem;
+    margin-top: 3rem !important;
+    text-align: center !important;
   }
   .about-section .head-description {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    text-align: center !important;
+    margin-top: 2rem;
+    padding: 0 4rem;
+  }
+  .about-section .arrow {
+    margin: 0 auto;
+  }
+  .about-section .arrow .fas {
+    color: #e95656;
+    font-size: 1.8rem;
     text-align: left;
-    margin-top: 2.5rem;
-    padding-right: 5.5rem;
-    color: #615f5f;
+    padding: .5rem;
+  }
+  .about-section .hFive {
+    padding: 0 !important;
+    margin-top: 2rem;
+  }
+  /*======= SERVICES SECTION =======*/
+  .services-section .head-description {
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 !important;
+    margin-top: 1.5rem;
+  }
+  .services-section .item-box {
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    margin: 4.5rem 4rem;
+  }
+  .services-section .item-box h4 {
+    color: #fff;
+  }
+  .services-section .item-box p {
+    font-weight: 400;
+    line-height: 2;
+    margin: 1rem 2rem;
+    color: #fff;
+    margin: 2rem 0;
+  }
+  /*======= PORTFOLIO SECTION =======*/
+  .owl-nav {
+    position: relative;
+    margin-top: 5rem !important;
+  }
+  .owl-nav .owl-prev {
+    position: absolute;
+    bottom: 0;
+    left: 45% !important;
+  }
+  .owl-nav .owl-next {
+    position: absolute;
+    bottom: 0;
+    right: 45% !important;
+    font-size: 5rem;
+  }
+  .owl-nav span {
+    height: 2rem !important;
+    display: inline-block;
+    color: #cc3939;
+    font-size: 5rem;
+    background: #ffffff;
+  }
+  /*======= BLOG SECTION =======*/
+  .blog-section .blog {
+    margin: 0 !important;
+  }
+  .blog-section .blog .hThree {
+    margin-top: 2rem !important;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .blog-section .blog .little-description {
+    line-height: 3.5;
+    text-align: center !important;
+    margin: 2rem 0;
+    padding-right: 0 !important;
+  }
+  .blog-section .blogR .hThree {
+    margin-top: 6rem !important;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
