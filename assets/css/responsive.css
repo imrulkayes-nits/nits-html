@@ -1,0 +1,170 @@
+/*==========================================*/
+/*=============  MEDIA QUERY  ==============*/
+/*==========================================*/
+/* ----------- iPhone 6,+ 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background: #fff;
+  }
+  /* REUSABLE COMPONENTS */
+  .button-reuse {
+    font-size: 1rem;
+    padding: .3rem 1rem !important;
+    margin: 2rem 0;
+    letter-spacing: .1rem;
+  }
+  .menu-bars .navbar {
+    position: relative;
+  }
+  .menu-bars .navbar button {
+    position: fixed;
+    top: 3rem;
+    right: 10rem !important;
+  }
+  .menu-bars .navbar button .fas {
+    padding: .1rem;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  /*==================================*/
+  /*  HEADER SECTION */
+  /*==================================*/
+  .header-section {
+    position: relative;
+  }
+  .header-section .navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+    z-index: 1;
+    background: -webkit-gradient(linear, right top, left top, from(#712323), to(#812727));
+    background: linear-gradient(to left, #712323, #812727);
+    -webkit-animation-name: initial;
+            animation-name: initial;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  /*======= BANNER =======*/
+  .banner .banner-text .promo-title {
+    margin-top: 3rem !important;
+    text-align: center;
+    font-weight: 400;
+  }
+  .banner .banner-text .head-description {
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    padding: 0 3rem !important;
+  }
+  .banner .banner-text .button-top {
+    position: relative;
+  }
+  .banner .banner-text .button-top .btn {
+    margin-top: 1.5rem !important;
+    position: absolute;
+    right: 16%;
+  }
+  .banner .banner-text .button-top .btn-left {
+    position: absolute;
+    left: 16%;
+  }
+  .banner .slider-img img {
+    max-width: 25rem;
+    max-height: 20rem;
+    margin-top: 3rem !important;
+  }
+  /*======= ABOUT SECTION =======*/
+  .about-section .hThree {
+    margin-top: 3rem !important;
+    text-align: center !important;
+  }
+  .about-section .head-description {
+    font-size: 1.3rem;
+    text-align: center !important;
+    margin-top: 2rem;
+    padding: 0 4rem;
+  }
+  .about-section .arrow {
+    margin: 0 auto;
+  }
+  .about-section .arrow .fas {
+    color: #e95656;
+    font-size: 1.8rem;
+    text-align: left;
+    padding: .5rem;
+  }
+  .about-section .hFive {
+    padding: 0 !important;
+    margin-top: 2rem;
+  }
+  /*======= SERVICES SECTION =======*/
+  .services-section .head-description {
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 !important;
+    margin-top: 1.5rem;
+  }
+  .services-section .item-box {
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    margin: 4.5rem 4rem;
+  }
+  .services-section .item-box h4 {
+    color: #fff;
+  }
+  .services-section .item-box p {
+    font-weight: 400;
+    line-height: 2;
+    margin: 1rem 2rem;
+    color: #fff;
+    margin: 2rem 0;
+  }
+  /*======= PORTFOLIO SECTION =======*/
+  .owl-nav {
+    position: relative;
+    margin-top: 5rem !important;
+  }
+  .owl-nav .owl-prev {
+    position: absolute;
+    bottom: 0;
+    left: 45% !important;
+  }
+  .owl-nav .owl-next {
+    position: absolute;
+    bottom: 0;
+    right: 45% !important;
+    font-size: 5rem;
+  }
+  .owl-nav span {
+    height: 2rem !important;
+    display: inline-block;
+    color: #cc3939;
+    font-size: 5rem;
+    background: #ffffff;
+  }
+  /*======= BLOG SECTION =======*/
+  .blog-section .blog {
+    margin: 0 !important;
+  }
+  .blog-section .blog .hThree {
+    margin-top: 2rem !important;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .blog-section .blog .little-description {
+    line-height: 3.5;
+    text-align: center !important;
+    margin: 2rem 0;
+    padding-right: 0 !important;
+  }
+  .blog-section .blogR .hThree {
+    margin-top: 6rem !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -240,15 +240,18 @@ line-height: 1.5;
       .btn {
         margin-top: 4rem;
       }
-      .btn-left {
+      .btn-left { 
         margin-right: 3.5rem;
       }
     }
   }
   .slider-img {
-    width: 35rem;
-    height: 30rem;
-    margin-top: 3.5rem;
+    img {
+      max-width: 35rem !important;
+      max-height: 30rem;
+      margin: 0 auto;
+    }
+
   }
 }
 /*======= ABOUT SECTION =======*/
@@ -421,12 +424,23 @@ line-height: 1.5;
         bottom: 0;
         left: 48%;
         margin-right: 3rem;
+        color: red;
         padding-right: 3rem;
       }
       .owl-next {
         position: absolute;
         bottom: 0;
         right: 48%;
+        background: #cc3939;
+      }
+      span {
+
+        height: 2rem !important;
+        display: inline-block;
+        background: #cc3939;
+        font-size: 3rem;
+        width: 1rem;
+        
       }
     }
   }
