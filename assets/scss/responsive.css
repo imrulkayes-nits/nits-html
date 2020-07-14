@@ -74,9 +74,9 @@
     left: 16%;
   }
   .banner .slider-img img {
-    max-width: 25rem;
-    max-height: 20rem;
-    margin-top: 3rem !important;
+    max-width: 30rem;
+    max-height: 25rem;
+    margin-top: 8rem !important;
   }
   /*======= ABOUT SECTION =======*/
   .about-section .hThree {
